@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.home{
+    background-color: black;
+    height: 80vh;
+    width: 30%;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+input{
+    width: 100%;
+    padding: 1rem;
+    text-align: end;
+    background-color: rgb(26, 24, 24);
+    color: beige;
+    border: none;
+}
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 1rem;
+    grid-template-areas:
+        "btn1 btn2 btn3 btn4"
+       "btn5 btn6 btn7 btn8"
+       "btn9 btn10 btn11 btn12"
+       "btn13 btn14 btn15 btn16"
+       "btn17 btn17 btn18 btn16";
+}
+.btn1{
+       grid-area: btn1;
+        background-color: #948f8f96;
+        border: none;
+        border-radius: 7px;
+        color: beige;
+
+}
+.btn2{
+    grid-area: btn2;
+        background-color: #948f8f96;
+        color: beige;
+        border: none;
+        border-radius: 7px;
+
+}
+.btn3{
+    grid-area: btn3;
+        background-color: #948f8f96;
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn4{
+    grid-area: btn4;
+    background-color: rgb(255, 174, 0);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn5{
+    grid-area: btn5;
+        background-color: rgb(26,24,24);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn6{
+    grid-area: btn6;
+        background-color: rgb(26,24,24);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn7{
+    grid-area: btn7;
+        background-color: rgb(26,24,24);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn8{
+    grid-area: btn8;
+        background-color: rgb(255, 174, 0);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn9{
+    grid-area: btn9;
+        background-color: rgb(26,24,24);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn10{
+    grid-area: btn10;
+        background-color: rgb(26,24,24);
+  color: beige;
+  border: none;
+  border-radius: 7px;
+}
+.btn11{
+    grid-area: btn11;
+        background-color: rgb(26,24,24);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
+.btn12{
+    grid-area: btn12;
+        background-color:rgb(255, 174, 0);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn13{
+    grid-area: btn13;
+        background-color: rgb(26,24,24);
+   color: beige;
+   border: none;
+   border-radius: 7px;
+}
+.btn14{
+     grid-area: btn14;
+         background-color: rgb(26,24,24);
+      color: beige;
+      border: none;
+      border-radius: 7px;
+}
+.btn15{
+    grid-area: btn15;
+        background-color: rgb(26,24,24);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn16{
+    grid-area:btn16;
+    background-color: rgb(255, 174, 0);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn17{
+    grid-area: btn17;
+        background-color: rgb(26,24,24);
+    color: beige;
+    border: none;
+    border-radius: 7px;
+}
+.btn18{
+    grid-area: btn18;
+        background-color: rgb(26,24,24);
+     color: beige;
+     border: none;
+     border-radius: 7px;
+}
