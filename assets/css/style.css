@@ -1,0 +1,250 @@
+/* :root{ */
+    /* --secondary:rgb(255, 274, 0); */
+    /* --primary: */
+    /* --black:#e9f5; */
+    /* --white: */
+    /* --light: */
+         
+/* } */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    min-height: 100vh;
+    padding-top: 60px;
+    padding: 1rem;
+}
+.navbar{
+    background-color: rgb(73, 183, 219);
+    padding: 1rem;
+    display: flex;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.active {
+    list-style-type: none;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+span{
+   color:rgb(248, 248, 64) ;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-align: left;   
+}
+.container{
+    margin-top: 5rem;
+}
+.homepage{
+    background-color: beige;
+    margin-top: 1rem;
+    display: flex;
+    gap: 10px;
+    height: 40vh;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.img{
+     width: 35%;
+     border-radius: 7px;
+}
+.btn1{
+    background-color: white;
+    height: 7vh;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+}
+.herotxt{
+    padding: 1rem;
+    text-justify: auto;
+    margin-top: 0.5rem;
+
+}
+.btn2{
+  background-color: white;
+    height: 7vh;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.btn3{
+  background-color: rgb(255, 174, 0);
+    height: 7vh;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.btn{
+   display: flex;
+   gap: 10px;
+}
+.divs{
+      background-color: rgb(238, 238, 238);
+  margin-top: 1rem;
+  height: 30vh;
+  display: flex;
+  row-gap: 10px;
+  box-shadow: 2px solid black;
+  padding: 1rem;
+  
+}
+.btn4{
+    
+  background-color: white;
+    height: 7vh;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    width: 7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.first{
+    display: flex;
+    gap: 15px;
+    margin-top: 1rem;
+}
+.first1{
+   margin-top: 5rem;
+}
+.us{
+   text-align: center;
+}
+.aboutimg{
+    margin-top: 1.5rem;
+}
+.achievements{
+    padding: 1rem;
+    display: flex;
+    gap: 20px; 
+    cursor: pointer;
+    justify-content: center;
+}
+.achievement{
+    text-align: center;
+    color: blue;
+    margin-top: 1rem;
+}
+
+.type{
+    padding: 1rem;
+    width: 32%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 10px;
+}
+footer{
+    background-color: #ddd;
+    margin-top: .4rem;
+    text-align: center;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.link {
+    color: black;
+}
+.btn1:hover{
+    background-color: rgb(24, 14, 14);
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(24, 14, 14);
+    color: white;
+}
+.btn4:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-5px);
+    background-color: skyblue;
+    color: white;
+}
+.btn5{
+  background-color: skyblue;
+    height: 7vh;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: #ddd;
+    width: 7rem;
+    cursor: pointer;
+}
+.subscribe{
+    display: flex;
+    margin-top: 5rem;
+
+}
+.main-div{
+    background: linear-gradient(to left, rgb(158, 183, 84),  rgb(73, 142, 73));
+    padding: 1rem;
+    text-align: center;
+}
+.first-div{
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+.second-div{
+    margin-bottom: 3rem;
+    margin-left: 48rem;
+
+}
+.text{
+    margin-bottom: .3rem;
+    margin-right: 3.5rem;
+}
+.footer{
+    background-color:rgb(153, 139, 139);
+     display: flex; 
+     gap:10rem; 
+     padding:2rem;
+    color: white
+}
+.img1{
+    width: 40px;
+    
+}
